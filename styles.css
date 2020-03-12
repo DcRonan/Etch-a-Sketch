@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+
 * {
     color: ghostwhite;
-    background-color: rgb(128, 0, 96);
-    font-weight: 500;
+    font-weight: 600;
+    font-family: 'Sen', sans-serif;
+}
+
+body {
+    background-image: url(images/sergio-souza-bmPepl7vhUs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -28,7 +37,7 @@ h1 {
     width: -webkit-fill-available;
     height: auto;
     border-radius: 40%;
-    border: 2px solid  rgb(128, 0, 96);
+    border: 2px solid  slategray;
 }
   
 .row {
@@ -39,13 +48,19 @@ h1 {
     flex-wrap: wrap;
 }
 
-button {
-    display: flex;
+.two-buttons { 
     text-align: center;
-    margin: 10px auto;
-    display: inline block;
-    padding: 10px auto;
-    position: relative;
+    margin: 10px;    
+}
+
+button {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 #randomColor {
@@ -55,4 +70,5 @@ button {
 #reset {
     background-color: whitesmoke;
     color: black;
+    width: 110px;
 }
