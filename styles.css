@@ -1,0 +1,30 @@
+.base-box {
+    width: 600px;
+    height: 600px;
+    border: solid 4px black;
+    position: relative;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(92, 43, 226);
+}
+
+.grid-square {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: -webkit-fill-available;
+    height: auto;
+    border: 2px solid rgb(92, 43, 226);
+    border-radius: 50%;
+}
+  
+.row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
