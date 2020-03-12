@@ -1,12 +1,23 @@
+* {
+    color: ghostwhite;
+    background-color: rgb(128, 0, 96);
+    font-weight: 500;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
 .base-box {
     width: 600px;
     height: 600px;
-    border: solid 4px black;
+    border: solid 2px black;
     position: relative;
-    margin: 100px auto;
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(92, 43, 226);
+    background-color: slategray;
 }
 
 .grid-square {
@@ -16,8 +27,8 @@
     justify-content: space-evenly;
     width: -webkit-fill-available;
     height: auto;
-    border: 2px solid rgb(92, 43, 226);
-    border-radius: 50%;
+    border-radius: 40%;
+    border: 2px solid  rgb(128, 0, 96);
 }
   
 .row {
@@ -28,3 +39,20 @@
     flex-wrap: wrap;
 }
 
+button {
+    display: flex;
+    text-align: center;
+    margin: 10px auto;
+    display: inline block;
+    padding: 10px auto;
+    position: relative;
+}
+
+#randomColor {
+    background-color: dodgerblue;
+}
+
+#reset {
+    background-color: whitesmoke;
+    color: black;
+}
